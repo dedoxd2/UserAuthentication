@@ -1,0 +1,12 @@
+<h2>Profile Edit</h2>
+
+<form method="POST">
+    {% csrf_token %}
+   
+   
+    {{userform}}
+    <br>
+    {{profile_form}}
+    <input type="submit" value="Edit Profile">
+
+</form>

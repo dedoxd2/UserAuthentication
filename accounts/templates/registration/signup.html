@@ -1,0 +1,8 @@
+<h2> Sign Up Form </h2>
+
+
+<form method="POST">
+    {% csrf_token %}
+    {{form}}
+    <input type="submit" value='Sign Up'>
+</form>
